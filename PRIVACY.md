@@ -1,6 +1,6 @@
 # Project T900 privacy policy
 
-**Effective:** 16 October 2026 · **Applies to:** Project T900 0.16.0 and later: the web app, the
+**Effective:** 30 October 2026 · **Applies to:** Project T900 0.16.0 and later: the web app, the
 browser extension and the desktop app; and its website, t900.si · **Published by:** WildOwlLab ·
 **Contact:** contact@t900.si
 
@@ -139,8 +139,11 @@ Each part of Project T900 keeps its own library. You can let them share one, on 
 no network involved. Sharing is off until you turn it on:
 
 - **The extension and the web app** share through the extension. Only the extension's own settings
-  page can approve sharing, and only with the addresses it was built for (a released extension:
-  the web app served on your own computer at `localhost:7900` or `127.0.0.1:7900`). While sharing
+  page can approve sharing, and only with the addresses it was built for. Released versions up to
+  0.20.3 are built for the web app served on your own computer at `localhost:7900` or
+  `127.0.0.1:7900`. From 0.20.4, a released extension is built for none, so it cannot share with
+  the web app, which is not published. A build of the extension made from the source code shares
+  with the copy of the web app running on your own computer. While sharing
   is on, anything running at an allowed address can read and change your library, also when the
   web app is not what runs there: another program on your computer, or another person's account
   on a computer you share, could serve a page at that address. On such a computer, or when you are
@@ -167,8 +170,9 @@ The extension asks for as little as it can, and for no access to websites beyond
 
 Its script on web pages runs only on `chatgpt.com`, `chat.openai.com`, `claude.ai` and
 `gemini.google.com`, to read your prompt or selected text when you ask and to insert a context pack
-when you ask; and on `localhost` and `127.0.0.1`, to connect to a copy of the web app on your own
-computer when you turn on sharing. It asks for no other site access and no permission to read your
+when you ask. Released versions up to 0.20.3, and a build made from the source code, also run one
+on `localhost` and `127.0.0.1`, to connect to a copy of the web app on your own computer when you
+turn on sharing; from 0.20.4, a released extension does not. It asks for no other site access and no permission to read your
 tabs, history, bookmarks, cookies, downloads or clipboard.
 
 ## Sensitive content

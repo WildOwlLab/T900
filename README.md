@@ -31,9 +31,12 @@ The latest version is v0.20.3: get it from
 will keep, open `chrome://extensions`, turn on **Developer mode**, click **Load unpacked** and pick
 that folder.
 
-**Extension in Firefox:** open `about:debugging#/runtime/this-firefox`, click **Load Temporary
-Add-on** and pick `project-t900-extension-firefox-v0.20.3.zip`. Firefox removes it when it restarts, so export
-your library first (Settings, Export all data as JSON) and load it again after a restart.
+**Extension in Firefox:** install it from [Firefox Add-ons](https://addons.mozilla.org/firefox/addon/project-t900/) with **Add to Firefox**.
+It stays installed, and Firefox updates it. Mozilla reviews each version before it goes live, so a
+new one can reach the store a few days after it appears here. The zip here is the same extension: to
+try it without the store, open `about:debugging#/runtime/this-firefox`, click **Load Temporary
+Add-on** and pick `project-t900-extension-firefox-v0.20.3.zip`, but Firefox removes an add-on loaded that
+way when it restarts.
 
 **Desktop app:** the installers are not signed with a developer certificate, so the first launch
 takes one extra step. Mac: drag Project T900 into Applications, open it once, then click **Open
