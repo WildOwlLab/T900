@@ -13,21 +13,21 @@ not public.
 
 ## Download
 
-The latest version is v0.20.3: get it from
+The latest version is v0.20.4: get it from
 [Releases](https://github.com/WildOwlLab/t900/releases/latest).
 
 | For | File |
 | --- | --- |
-| Chrome, Edge, Brave or Arc (extension) | `project-t900-extension-v0.20.3.zip` |
-| Firefox 140 or newer (extension) | `project-t900-extension-firefox-v0.20.3.zip` |
-| Mac with Apple silicon (M1 or later) | `Project-T900-0.20.3-mac-arm64.dmg` |
-| Mac with an Intel processor | `Project-T900-0.20.3-mac-x64.dmg` |
-| Windows 10 or 11 | `Project-T900-0.20.3-windows-x64-setup.exe` |
-| Debian or Ubuntu | `Project-T900-0.20.3-linux-amd64.deb` |
+| Chrome, Edge, Brave or Arc (extension) | `project-t900-extension-v0.20.4.zip` |
+| Firefox 140 or newer (extension) | `project-t900-extension-firefox-v0.20.4.zip` |
+| Mac with Apple silicon (M1 or later) | `Project-T900-0.20.4-mac-arm64.dmg` |
+| Mac with an Intel processor | `Project-T900-0.20.4-mac-x64.dmg` |
+| Windows 10 or 11 | `Project-T900-0.20.4-windows-x64-setup.exe` |
+| Debian or Ubuntu | `Project-T900-0.20.4-linux-amd64.deb` |
 
 ## Install
 
-**Extension in Chrome, Edge, Brave or Arc:** unzip `project-t900-extension-v0.20.3.zip` into a folder you
+**Extension in Chrome, Edge, Brave or Arc:** unzip `project-t900-extension-v0.20.4.zip` into a folder you
 will keep, open `chrome://extensions`, turn on **Developer mode**, click **Load unpacked** and pick
 that folder.
 
@@ -35,14 +35,14 @@ that folder.
 It stays installed, and Firefox updates it. Mozilla reviews each version before it goes live, so a
 new one can reach the store a few days after it appears here. The zip here is the same extension: to
 try it without the store, open `about:debugging#/runtime/this-firefox`, click **Load Temporary
-Add-on** and pick `project-t900-extension-firefox-v0.20.3.zip`, but Firefox removes an add-on loaded that
+Add-on** and pick `project-t900-extension-firefox-v0.20.4.zip`, but Firefox removes an add-on loaded that
 way when it restarts.
 
 **Desktop app:** the installers are not signed with a developer certificate, so the first launch
 takes one extra step. Mac: drag Project T900 into Applications, open it once, then click **Open
 Anyway** under System Settings → Privacy & Security. Windows: if SmartScreen stops the setup, click
 **More info**, then **Run anyway**. Debian or Ubuntu:
-`sudo apt install ./Project-T900-0.20.3-linux-amd64.deb`. Installing over an older version keeps
+`sudo apt install ./Project-T900-0.20.4-linux-amd64.deb`. Installing over an older version keeps
 your library.
 
 ## Simple, or Nerd mode
